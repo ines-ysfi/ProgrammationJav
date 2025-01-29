@@ -1,0 +1,154 @@
+
+body {
+    background-image: url(img/backgroungimage.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    font-size: medium;
+    color: #333333;
+}
+
+header {
+    background-color: rgb(135, 172, 209);
+    height: 5.5cm;
+    color: rgb(253, 250, 252);
+    padding: 10px;
+}
+
+header a:hover {
+    color: rgb(187, 103, 169); 
+    text-decoration: underline;
+}
+
+
+h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 38px;
+}
+
+section h2 {
+    text-align: center;
+    color: #3f6a8d; 
+    font-weight: bold;
+    font-size: 33px;
+}
+
+h3{
+    text-align: left;
+    color: rgb(175, 51, 138);
+    font-size: 22px;
+}
+
+h4{
+    text-align: left;
+    color: #333333;
+    font-size: 17px;
+}
+
+section {
+    padding: 50px 90px;
+    margin-bottom: 30px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15), 0px 15px 40px rgba(0, 0, 0, 0.1); 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+}
+
+
+
+
+section p {
+    text-align: justify;
+    max-width: 800px;
+    margin: auto;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: rgb(135, 172, 209); 
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: rgb(254, 250, 254);
+}
+
+
+table {
+    width: 90%; 
+    margin: 20px auto; 
+    font-size: 14px; 
+    text-align: left;
+    border-collapse: collapse;
+}
+
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px 12px; 
+}
+
+
+th {
+    background-color: rgb(187, 103, 169);
+    color: white;
+    text-align: center; 
+}
+
+
+td:hover {
+    background-color: #c2c1c1;
+    cursor: pointer;
+}
+
+
+figure {
+    text-align: center; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+ 
